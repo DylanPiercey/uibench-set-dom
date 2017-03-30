@@ -129,7 +129,7 @@ const Main = (data) => {
   return div
 }
 
-window.uibench.init('Deku', '2.0.0-rc16')
+window.uibench.init('set-dom', require('../../package.json').dependencies['set-dom'])
 
 document.addEventListener('DOMContentLoaded', function (e) {
   const container = document.querySelector('#App')
